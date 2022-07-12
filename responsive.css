@@ -1,0 +1,31 @@
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .content-item {
+    width: 47.7%;
+  }
+}
+
+@media (max-width: 740px) {
+  .header-heading {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+  }
+  .project-contents {
+    display: flex;
+    flex-direction: column;
+  }
+  .content-item {
+    width: 101%;
+  }
+  .project-heading {
+    padding-top: 16px;
+  }
+  .about-employees {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-btn {
+    width: 30%;
+  }
+}

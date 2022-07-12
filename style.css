@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Verdana, sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 4px;
+  padding: 8px 16px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #777;
+}
+.navbar a {
+  text-decoration: none;
+  font-size: 15px;
+  padding: 8px 16px;
+  color: #000;
+}
+.home,
+.options {
+  padding: 8px 16px;
+}
+.navbar a:hover {
+  background-color: rgb(200, 191, 191);
+}
+
+.header {
+  position: relative;
+}
+
+.header-img {
+  width: 100%;
+}
+.header-heading {
+  position: absolute;
+  top: 47%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+
+  font-size: 36px;
+  color: white;
+  letter-spacing: 2px;
+}
+#name-br {
+  font-weight: 600;
+  opacity: 0.9;
+  padding: 10px;
+  background-color: #363839;
+  margin-right: 10px;
+}
+.main {
+  /* padding: 16px 0; */
+}
+.project {
+  padding: 8px 16px;
+}
+.project-heading {
+  font-size: 24px;
+  font-weight: 400;
+  padding: 48px 16px 24px 16px;
+  border-bottom: 1px solid rgb(185, 179, 179);
+}
+
+.project-contents {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px 16px;
+}
+.content-item {
+  position: relative;
+  width: 23.9%;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+.heading-item {
+  position: absolute;
+  padding: 8px 16px;
+  background-color: #000;
+  color: #fff;
+}
+.heading-img {
+  width: 100%;
+}
+
+.about {
+  padding: 8px 16px;
+}
+.about-content {
+  padding: 16px 16px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.about-employees {
+  display: flex;
+  margin-top: 32px;
+  padding: 16px;
+}
+.employee-avatar {
+  width: 100%;
+}
+.employee-des h3 {
+  font-size: 24px;
+  font-weight: 400;
+  padding: 16px 0;
+}
+
+.employee-rule {
+  color: #777;
+}
+
+.employee-intro {
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 16px 0;
+}
+
+.employee-contact {
+  width: 100%;
+  padding: 8px 16px;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+.contact {
+  padding: 8px 16px;
+}
+
+.contact-form p {
+  padding: 32px 16px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 16px;
+}
+.form input {
+  font-size: 15px;
+  padding: 12px 8px;
+  margin: 8px 0;
+  border: 1px solid rgb(214, 205, 205);
+}
+.form-btn {
+  width: 15%;
+  background-color: #000;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 8px;
+  margin-top: 16px;
+}
+
+.map {
+  padding: 8px 16px;
+  margin-top: 24px;
+}
+.map-img {
+  padding: 8px 16px;
+  width: 100%;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 24px 0;
+  text-align: center;
+  font-size: 15px;
+}
+
+.footer a {
+  color: #fff;
+  font-size: 15px;
+}
